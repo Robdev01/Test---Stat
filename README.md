@@ -2,24 +2,6 @@
 
 Este projeto configura um pipeline para processar textos extraídos de PDFs, gerar embeddings usando Llama3 e armazenar esses embeddings no ChromaDB. O projeto é containerizado usando Docker e Docker Compose para facilitar a configuração e execução do ambiente.
 
-## Estrutura do Projeto
-
-A estrutura do projeto é a seguinte:
-
-\`\`\`
-meu_projeto_langchain/
-├── app/
-│   ├── main.py
-│   ├── pipeline.py
-│   ├── pdf_processor.py
-│   ├── chromadb_integration.py
-├── docs/
-│   └── politica_de_privacidade.pdf
-├── Dockerfile
-├── docker-compose.yml
-└── requirements.txt
-\`\`\`
-
 ## Dependências
 
 Certifique-se de que você tem as seguintes ferramentas instaladas:
