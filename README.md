@@ -8,15 +8,7 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
 - Docker
 - Docker Compose
 
-As dependências do Python são listadas em \`requirements.txt\`:
-
-\`\`\`
-langchain
-llama-cpp-python
-chromadb
-PyPDF2
-pdfminer.six
-\`\`\`
+As dependências do Python são listadas em \`requirements.txt\`
 
 ## Configuração e Execução
 
