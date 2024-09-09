@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  langchain_service:
+    build: .
+    container_name: langchain_container
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - chromadb_service
+
+  chromadb_service:
+    image: chromadb/chromadb:latest
+    container_name: chromadb_container
+    ports:
+      - "8001:8001"
